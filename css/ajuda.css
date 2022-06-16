@@ -1,0 +1,65 @@
+
+#formulario{
+    width: 500px;
+    position: absolute;
+    left: 30%;
+    margin: 50px;
+    background-color: #f2f2f2;
+    font-size: 17px;
+}
+
+#formulario input{
+    border-radius: 3px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+button{
+    margin-top: 10px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#nome{
+    margin: 7px 0 10px 0;
+}
+
+#email{
+    margin: 7px 0 10px 0;
+}
+
+#data{
+    margin: 7px 0 10px 0;
+}
+
+#data input{
+    cursor: pointer;
+}
+
+#motivo{
+    margin: 7px 0 10px 0;
+}
+
+#motivo select{
+    cursor: pointer;
+}
+
+#nivel .nivel1{
+    display: block;
+    cursor: pointer;
+}
+
+.voce{
+    display: block;
+    margin-bottom: 7px;
+}
+
+#voce{
+    margin: 10px 0 10px 0;
+}
+#voce input{
+    margin-right: 5px;
+    cursor: pointer;
+}

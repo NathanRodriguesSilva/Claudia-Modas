@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claudia Modas</title>
+    <link rel="stylesheet" href="css/estiloindex.css">
+
+      
+  <link rel="stylesheet" href="js/plugins/jquery.bxslider.css">
+  <script src="js/plugins/jquery.min.js"></script>
+  <script src="js/plugins/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+          mode: 'horizontal',
+          //captions: true,
+          //slideWidght: true,
+          auto: true,
+          pager: true,
+          //controls: true,
+          document
+      });
+    });
+  </script>
+    
+</head>
+<body>
+    <header class="container">
+        <!--Conteúdo do Cabeçalho-->
+        <h1><img src="imagens/claudia modas.png" alt="Claudia Modas"></h1>
+
+        <p class="sacola">Nenhum item na sacola de compra</p>
+
+        <nav class="menu-opções">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./internas/conta.html">Sua Conta</a></li>
+                <li><a href="./internas/sobre.html">Sobre</a></li>
+                <li><a href="internas/ajuda.html">Ajuda</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="menu-principal">
+        <!--Conteúdo Principal-->
+        
+            <div class="menu">
+                <section class="busca">
+                    <h2>Pesquise um produto</h2>
+                    <form>
+                        <input type="search">
+                        <button>Buscar</button>
+                    </form>
+                </section>
+        
+                <section class="menu-departamentos">
+                    <h2>Departamentos</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Blusas e Camisas</a>
+                                <ul>
+                                    <li><a href="#">Manga Longa</a></li>
+                                    <li><a href="#">Manga Curta</a></li>
+                                    <li><a href="#">Camisa Casual</a></li>
+                                    <li><a href="#">Camisa Social</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Calças</a></li>
+                            <li><a href="#">Saias</a></li>
+                            <li><a href="#">Vestidos</a></li>
+                            <li><a href="#">Sapatos</a></li>
+                            <li><a href="#">Bolsas e Carteiras</a></li>
+                            <li><a href="#">Acessórios</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+
+            <div class="imagem">
+                <section class="banner-destaque">
+                    <ul class="slider">
+                        <li><img class="img1" src="imagens/produtos/roupa 1.jpeg"></li>
+                        <li><img class="img2" src="imagens/produtos/vestido vermelho.jpeg"></li>
+                        <li><img class="img3" src="imagens/produtos/roupa 2.jpeg"></li>
+                    </ul>
+                </section>
+            </div>
+    
+    </div>
+
+    
+        <!--Painéis com Destaques-->
+        <div class="container paineis">
+            <section class="novidades">
+                <h2>Novidades</h2>
+                <div class="listan">
+                    <ol>
+                        <!--Primeiro Produto-->
+                     <li>
+                         <a href="internas/produto.html">
+                             <figure>
+                                 <img src="imagens/produtos/miniatura1.png" alt="miniatura1">
+                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                             </figure>
+                         </a>
+                     </li>
+                       <!---Fim do Primeiro Produto-->
+ 
+                       <!---Segundo Produto-->
+                       <li>
+                           <a href="internas/produto.html">
+                               <figure>
+                                   <img src="imagens/produtos/miniatura2.png" alt="miniatura2">
+                                   <figcaption>Fuzz Cardigan modelo verão por R$ 50,00</figcaption>
+                               </figure>
+                           </a>
+                       </li>
+                       <!---Fim do Segundo Produto-->
+ 
+                       <!---Terceiro Produto-->
+                      <li>
+                          <a href="internas/produto.html">
+                             <figure>
+                                 <img src="imagens/produtos/miniatura3.png" alt="miniatura3">
+                                 <figcaption>Fuzz Cardigon modelo outono por R$ 65,00</figcaption>
+                             </figure>
+                          </a>
+                      </li>
+                      <!---FIm do Terceiro Produto-->
+ 
+                      <!---Quarto Produto-->
+                      <li>
+                          <a href="internas/produto.html">
+                             <figure>
+                                 <img src="imagens/produtos/miniatura4.png" alt="miniatura4">
+                                 <figcaption>Casaco para o inverno por R$ 80,00</figcaption>
+                             </figure>
+                          </a>
+                      </li>
+                      <!---Fim do Quarto Produto-->
+ 
+                      <!---Quinto Produto-->
+                      <li>
+                          <a href="internas/produto.html">
+                              <figure>
+                                 <img src="imagens/produtos/miniatura5.png" alt="miniatura5">
+                                 <figcaption>Camisa para treinos por R$ 20,00</figcaption>
+                              </figure>
+                          </a>
+                      </li>
+                      <!---Fim do Quinto Produto-->
+ 
+                      <!---Sexto Produto-->
+                      <li>
+                          <a href="internas/produto.html">
+                              <figure>
+                                  <img src="imagens/produtos/miniatura6.png" alt="miniatura6">
+                                  <figcaption>Camisa para academia por R$ 20,00</figcaption>
+                              </figure>
+                          </a>
+                      </li>
+                      <!---Fim do Sexto Produto-->
+ 
+                   </ol>
+                </div>
+                   
+
+            </section>
+
+            <section class="mais-vendidos">
+                <h2>Mais Vendidos</h2>
+                <div class="listam">
+                    <ol>
+                        <!---Primeiro Produto Mais Vendido-->
+                        <li>
+                           <a href="internas/produto.html">
+                               <figure>
+                                   <img src="imagens/produtos/miniatura8.png" alt="miniatura8">
+                                   <figcaption>Camisa verde escuro por R$ 15,00</figcaption>
+                               </figure>
+                           </a>
+                       </li>
+                       <!---Fim do Primeiro Produto Mais Vendido-->
+   
+                       <!---Segundo Produto Mais Vendido-->
+                       <li>
+                           <a href="internas/produto.html">
+                               <figure>
+                                   <img src="imagens/produtos/miniatura9.png" alt="miniatura9">
+                                   <figcaption>Camisa xadrez por R$ 25,00</figcaption>
+                               </figure>
+                           </a>
+                       </li>
+                       <!---Fim do Segundo Produto Mais Vendido-->
+   
+                       <!---Terceiro Produto Mais Vendido-->
+                       <li>
+                           <a href="internas/produto.html">
+                               <figure>
+                                   <img src="imagens/produtos/miniatura10.png" alt="miniatura10">
+                                   <figcaption>Camisa manga longa rosa por R$ 33,50</figcaption>
+                               </figure>
+                           </a>
+                       </li>
+                       <!---Fim do Terceiro Produto Mais Vendido-->
+   
+                       <!---Quarto Produto Mais Vendido-->
+                       <li>
+                           <a href="internas/produto.html">
+                               <figure>
+                                   <img src="imagens/produtos/miniatura11.png" alt="miniatura11">
+                                   <figcaption>Short Verde por R$ 18,70</figcaption>
+                               </figure>
+                           </a>
+                       </li>
+                       <!---Fim do Quarto Produto Mais Vendido-->
+   
+                       <!---Quinto Produto Mais Vendido-->
+                       <li>
+                           <a href="internas/produto.html">
+                               <figure>
+                                   <img src="imagens/produtos/miniatura12.png" alt="miniatura12">
+                                   <figcaption>Camisa idoso social por R$ 45,30</figcaption>
+                               </figure>
+                           </a>
+                       </li>
+                       <!----Fim do Quinto Produto Mais Vendido-->
+   
+                       <!---Sexto Produto Mais Vendido-->
+                       <li>
+                           <a href="internas/produto.html">
+                               <figure>
+                                   <img src="imagens/produtos/miniatura13.png" alt="miniatura13">
+                                   <figcaption>Camisa malha fina manga longa por R$ 27,70</figcaption>
+                               </figure>
+                           </a>
+                       </li>
+                       <!---Fim do Sexto Produto Mais Vendido-->
+   
+                      </ol>
+                </div>
+            </section>
+        </div>
+    
+    <footer id="rodape">
+        <!--Conteúdo do Rodapé-->
+        <div class="container">
+            <img src="imagens/logo rodape.png" alt="Logo da Claudia Modas">
+        
+            <ul class="social">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="https://www.instagram.com/claaudiamodas">Instagran</a></li>
+            </ul>
+        </div>
+       
+    </footer>
+</body>
+</html>

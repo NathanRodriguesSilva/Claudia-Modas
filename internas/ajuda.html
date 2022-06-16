@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ajuda.css">
+    <title>Suporte</title>
+</head>
+<body>
+
+    <div class="principal">
+        <form action="" id="formulario">
+            <fieldset>
+                <h2>Entre em contato</h2>
+                <div id="nome">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Nome Completo" id="nome" required>
+                </div>
+
+                <div id="email">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="email.@exemplo.com" id="email" required>
+                </div>
+
+                <div id="data">
+                    <label for="data">Data do contato</label>
+                    <input type="date" name="data" id="data" required>
+                </div>
+
+                <div id="motivo">
+                    <label for="motivo-contato">Motivo do Contato</label>
+                    <select name="opcao" id="opcao">
+                        <option value="">Selecione uma opção</option>
+                        <option value="rlc">Reclamação</option>
+                        <option value="de">Dúvidas sobre estoque</option>
+                        <option value="crt">Crítica</option>
+                        <option value="agd">Agradecimento</option>
+                        <option value="dv">Devolução</option>
+                    </select>
+                </div>
+
+                <div id="mensagem">
+                    <label for="mensagem">Escreva sua mensagem</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                    <br>
+                </div>
+
+                <div id="voce">
+                    <label class="voce" for="voce">Você é:</label>
+        
+                    <input type="checkbox">
+                    <label for="recomendacao">Cliente por recomendação</label>
+                    <input type="checkbox">
+                    <label for="">Cliente Novo</label>
+                    <input type="checkbox">
+                    <label for="antigo">Cliente antigo</label>
+                    
+                </div>
+
+                <div id="nivel">
+                    <label for="nivel-recomendacao">Nivel de recomendação</label>
+                    <input class="nivel1" type="range">
+                    <label for="nivel-satisfacacao">Nível de satisfação</label>
+                    <input class="nivel1" type="range">
+                    <label for="nivel-aprovacao">Nível de aprovação</label>
+                    <input class="nivel1" type="range">
+                </div>
+                
+                <button>Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

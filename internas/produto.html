@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/produto.css">
+    <title>Produtos</title>
+
+    <script type="text/javascript" src="/js/produto.js" ></script>
+
+</head>
+
+<body>
+    <header class="container">
+        <!--Conteúdo do Cabeçalho-->
+        <h1><img src="../imagens/claudia modas.png" alt="Claudia Modas"></h1>
+
+        <p class="sacola">Nenhum item na sacola de compra</p>
+
+        <nav class="menu-opções">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="conta.html">Sua Conta</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="produto-back">
+        <div class="container">
+            <div class="produto">
+                <h1>Fuzzy Cardigan</h1>
+                <p>por apenas R$ 129,90</p>
+                <form>
+                    <fieldset class="cores">
+                        <legend>Escolha a cor</legend>
+                        <input type="radio" value="cor" name="verde" id="verde">
+                        <label for="verde">
+                            <img src="../imagens/produtos/foto1-verde.png" alt="Produto na cor verde">
+                        </label>
+                        <input type="radio" value="cor" name="azul" id="azul">
+                        <label for="azul">
+                            <img src="../imagens/produtos/foto1-azul.png" alt="Produto na cor azul">
+                        </label>
+                        <input type="radio" value="cor" name="rosa" id="rosa">
+                        <label for="rosa">
+                            <img src="../imagens/produtos/foto1-rosa.png" alt="Produto na cor vrosa">
+                        </label>
+                        <button class="comprar"><a href="checkout.html">Comprar</a></button>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Tamanho</legend>
+                        <input type="range" min="36" max="46" value="42" step="2" name="tamanhos" id="tamanhos">
+                        
+                    </fieldset>
+                </form>
+            </div>
+            <div class="detalhes">
+                <h2>Detalhes do produto</h2>
+                <p>Esse é o melhor casaco de Cardigã que você já viu. Excelente material italiano com estampa desenhada
+                    pelos artesões da comunidade Krotor nas ilhas gregas. Compre já e receba hoje mesmo pela nossa entrega a jato.</p>
+            </div>
+            <table>
+                <thead>
+                    <th>Características</th>
+                    <th>Detalhes</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Modelo</td>
+                        <td>Cardigã 7845</td>
+                    </tr>
+                    <tr>
+                        <td>Material</td>
+                        <td>Aldogão e poliester</td>
+                    </tr>
+                    <tr>
+                        <td>Cores</td>
+                        <td>Azul, Rosa e verde</td>
+                    </tr>
+                    <tr>
+                        <td>Lavagem</td>
+                        <td>Lavagem a mão</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer id="rodape">
+        <!--Conteúdo do Rodapé-->
+        <div class="container">
+            <img src="../imagens/logo rodape.png" alt="Logo da Claudia Modas">
+
+            <ul class="social">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="https://www.instagram.com/claaudiamodas">Instagran</a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+</html>
