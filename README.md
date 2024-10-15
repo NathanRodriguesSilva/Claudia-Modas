@@ -1,4 +1,4 @@
-# https://nathandrake4591.github.io/Claudia-Modas/
+# https://NathanRodriguesSilva.github.io/Claudia-Modas/
 
 Projeto final desenvolvido na disciplina de Introdução à Tecnologia Web
 
